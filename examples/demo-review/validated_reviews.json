@@ -1,0 +1,145 @@
+{
+  "analysis_id": "ae3461a81dd7c494d9104556182c5ead1218ddb426ca57178a977a8112efc05b",
+  "review_source": "synthetic_fixture",
+  "reviews": [
+    {
+      "event_id": "E000004",
+      "status": "restart",
+      "revised_start_ref": "M000005",
+      "basis_refs": [
+        "M000004",
+        "M000005",
+        "M000006"
+      ],
+      "reason": "前面已说现场见；下午封面提问另起一轮，20分钟后答复。",
+      "context_assessment": "新问题没有跨过4小时，上午收尾不构成持续等待。",
+      "context_status": "not_applicable",
+      "revised_seconds": 1200.0
+    },
+    {
+      "event_id": "E000006",
+      "status": "closed",
+      "revised_start_ref": null,
+      "basis_refs": [
+        "M000007"
+      ],
+      "reason": "此处为前一问答的确认或收尾；后面的新发言没有使它成为未解决问题。",
+      "context_assessment": "未确认仍在等待答复，不把停聊时长当成迟答。",
+      "context_status": "not_applicable",
+      "revised_seconds": null
+    },
+    {
+      "event_id": "E000007",
+      "status": "retained",
+      "revised_start_ref": "M000008",
+      "basis_refs": [
+        "M000008",
+        "M000009"
+      ],
+      "reason": "会场预约是明确问题，5小时10分后得到同事项回答。",
+      "context_assessment": "对方明确解释在培训、课间才看见；延后回应不等于故意不回。",
+      "context_status": "explained",
+      "revised_seconds": 18600.0
+    },
+    {
+      "event_id": "E000010",
+      "status": "closed",
+      "revised_start_ref": null,
+      "basis_refs": [
+        "M000011"
+      ],
+      "reason": "此处为前一问答的确认或收尾；后面的新发言没有使它成为未解决问题。",
+      "context_assessment": "未确认仍在等待答复，不把停聊时长当成迟答。",
+      "context_status": "not_applicable",
+      "revised_seconds": null
+    },
+    {
+      "event_id": "E000011",
+      "status": "closed",
+      "revised_start_ref": null,
+      "basis_refs": [
+        "M000012"
+      ],
+      "reason": "此处为前一问答的确认或收尾；后面的新发言没有使它成为未解决问题。",
+      "context_assessment": "未确认仍在等待答复，不把停聊时长当成迟答。",
+      "context_status": "not_applicable",
+      "revised_seconds": null
+    },
+    {
+      "event_id": "E000014",
+      "status": "closed",
+      "revised_start_ref": null,
+      "basis_refs": [
+        "M000015"
+      ],
+      "reason": "此处为前一问答的确认或收尾；后面的新发言没有使它成为未解决问题。",
+      "context_assessment": "未确认仍在等待答复，不把停聊时长当成迟答。",
+      "context_status": "not_applicable",
+      "revised_seconds": null
+    },
+    {
+      "event_id": "E000015",
+      "status": "uncertain",
+      "revised_start_ref": null,
+      "basis_refs": [
+        "M000016",
+        "M000017"
+      ],
+      "reason": "语音和图片均未识别，无法确认是否存在待答事项及其对应关系。",
+      "context_assessment": "保留未知，不猜测媒体内容。",
+      "context_status": "insufficient",
+      "revised_seconds": null
+    },
+    {
+      "event_id": "E000023",
+      "status": "restart",
+      "revised_start_ref": "M000025",
+      "basis_refs": [
+        "M000024",
+        "M000025",
+        "M000026"
+      ],
+      "reason": "上午确认音频安排已结束；下午摘要提问是新事项，12分钟后答复。",
+      "context_assessment": "不能把上午的确认语作为下午等待起点。",
+      "context_status": "not_applicable",
+      "revised_seconds": 720.0
+    },
+    {
+      "event_id": "E000026",
+      "status": "closed",
+      "revised_start_ref": null,
+      "basis_refs": [
+        "M000028"
+      ],
+      "reason": "此处为前一问答的确认或收尾；后面的新发言没有使它成为未解决问题。",
+      "context_assessment": "未确认仍在等待答复，不把停聊时长当成迟答。",
+      "context_status": "not_applicable",
+      "revised_seconds": null
+    },
+    {
+      "event_id": "E000029",
+      "status": "closed",
+      "revised_start_ref": null,
+      "basis_refs": [
+        "M000031"
+      ],
+      "reason": "此处为前一问答的确认或收尾；后面的新发言没有使它成为未解决问题。",
+      "context_assessment": "未确认仍在等待答复，不把停聊时长当成迟答。",
+      "context_status": "not_applicable",
+      "revised_seconds": null
+    },
+    {
+      "event_id": "E000030",
+      "status": "retained",
+      "revised_start_ref": "M000032",
+      "basis_refs": [
+        "M000032",
+        "M000033"
+      ],
+      "reason": "关于提前到场的明确问题，4小时01秒后得到答案，严格超过4小时。",
+      "context_assessment": "对方说明刚结束排练；解释与是否存在延后回应分开。",
+      "context_status": "explained",
+      "revised_seconds": 14401.0
+    }
+  ]
+}

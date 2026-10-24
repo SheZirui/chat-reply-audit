@@ -1,0 +1,823 @@
+{
+  "schema_version": "1.0.0",
+  "analysis_id": "ae3461a81dd7c494d9104556182c5ead1218ddb426ca57178a977a8112efc05b",
+  "audit": {
+    "source_sha256": "0016b2ac3de122380c3a21bc4bbaae5b27cdea4a843c27ce70a9a64066d4ef1c",
+    "normalized_sha256": "522f4f5aa2f77d620eb145d6556e8da05ed2dd2d544f1c64632f6a3a75eca47f",
+    "raw_rows": 34,
+    "valid_rows": 34,
+    "excluded_system": 0,
+    "duplicates_removed": 0,
+    "conversation_id_missing_rows": 0,
+    "same_timestamp_adjacent_pairs": 0
+  },
+  "config": {
+    "timezone": "+08:00",
+    "phases": [
+      {
+        "name": "虚构阶段一",
+        "start": "2030-01-01T00:00:00+08:00",
+        "end": "2030-01-05T00:00:00+08:00"
+      },
+      {
+        "name": "虚构阶段二",
+        "start": "2030-01-05T00:00:00+08:00",
+        "end": "2030-01-08T00:00:00+08:00"
+      }
+    ],
+    "as_of": "2030-01-07T18:00:00+08:00",
+    "short_minutes": 120,
+    "thresholds_minutes": [
+      120,
+      180,
+      240
+    ],
+    "candidate_minutes": 240
+  },
+  "phase_message_counts": {
+    "虚构阶段一": {
+      "A": 10,
+      "B": 11
+    },
+    "虚构阶段二": {
+      "A": 7,
+      "B": 6
+    }
+  },
+  "summary": [
+    {
+      "phase": "虚构阶段一",
+      "sender": "A",
+      "metric": "first",
+      "count": 9,
+      "mean_seconds": 21760.0,
+      "median_seconds": 600.0,
+      "p90_seconds": 63756.0,
+      "short_count": 5,
+      "short_mean_seconds": 204.0,
+      "over_counts": {
+        "120": 4,
+        "180": 4,
+        "240": 4
+      },
+      "over_rates": {
+        "120": 0.4444444444444444,
+        "180": 0.4444444444444444,
+        "240": 0.4444444444444444
+      }
+    },
+    {
+      "phase": "虚构阶段一",
+      "sender": "B",
+      "metric": "first",
+      "count": 10,
+      "mean_seconds": 7914.0,
+      "median_seconds": 150.0,
+      "p90_seconds": 20879.999999999993,
+      "short_count": 7,
+      "short_mean_seconds": 162.85714285714286,
+      "over_counts": {
+        "120": 3,
+        "180": 3,
+        "240": 3
+      },
+      "over_rates": {
+        "120": 0.3,
+        "180": 0.3,
+        "240": 0.3
+      }
+    },
+    {
+      "phase": "虚构阶段一",
+      "sender": "A",
+      "metric": "last",
+      "count": 9,
+      "mean_seconds": 19000.0,
+      "median_seconds": 600.0,
+      "p90_seconds": 63756.0,
+      "short_count": 6,
+      "short_mean_seconds": 370.0,
+      "over_counts": {
+        "120": 3,
+        "180": 3,
+        "240": 3
+      },
+      "over_rates": {
+        "120": 0.3333333333333333,
+        "180": 0.3333333333333333,
+        "240": 0.3333333333333333
+      }
+    },
+    {
+      "phase": "虚构阶段一",
+      "sender": "B",
+      "metric": "last",
+      "count": 10,
+      "mean_seconds": 7914.0,
+      "median_seconds": 150.0,
+      "p90_seconds": 20879.999999999993,
+      "short_count": 7,
+      "short_mean_seconds": 162.85714285714286,
+      "over_counts": {
+        "120": 3,
+        "180": 3,
+        "240": 3
+      },
+      "over_rates": {
+        "120": 0.3,
+        "180": 0.3,
+        "240": 0.3
+      }
+    },
+    {
+      "phase": "虚构阶段二",
+      "sender": "A",
+      "metric": "first",
+      "count": 5,
+      "mean_seconds": 16440.2,
+      "median_seconds": 120.0,
+      "p90_seconds": 46296.40000000001,
+      "short_count": 3,
+      "short_mean_seconds": 80.0,
+      "over_counts": {
+        "120": 2,
+        "180": 2,
+        "240": 2
+      },
+      "over_rates": {
+        "120": 0.4,
+        "180": 0.4,
+        "240": 0.4
+      }
+    },
+    {
+      "phase": "虚构阶段二",
+      "sender": "B",
+      "metric": "first",
+      "count": 6,
+      "mean_seconds": 17509.833333333332,
+      "median_seconds": 7290.0,
+      "p90_seconds": 45180.0,
+      "short_count": 3,
+      "short_mean_seconds": 99.66666666666667,
+      "over_counts": {
+        "120": 3,
+        "180": 3,
+        "240": 2
+      },
+      "over_rates": {
+        "120": 0.5,
+        "180": 0.5,
+        "240": 0.3333333333333333
+      }
+    },
+    {
+      "phase": "虚构阶段二",
+      "sender": "A",
+      "metric": "last",
+      "count": 5,
+      "mean_seconds": 16440.2,
+      "median_seconds": 120.0,
+      "p90_seconds": 46296.40000000001,
+      "short_count": 3,
+      "short_mean_seconds": 80.0,
+      "over_counts": {
+        "120": 2,
+        "180": 2,
+        "240": 2
+      },
+      "over_rates": {
+        "120": 0.4,
+        "180": 0.4,
+        "240": 0.4
+      }
+    },
+    {
+      "phase": "虚构阶段二",
+      "sender": "B",
+      "metric": "last",
+      "count": 6,
+      "mean_seconds": 13959.833333333334,
+      "median_seconds": 450.0,
+      "p90_seconds": 41370.0,
+      "short_count": 4,
+      "short_mean_seconds": 254.75,
+      "over_counts": {
+        "120": 2,
+        "180": 2,
+        "240": 1
+      },
+      "over_rates": {
+        "120": 0.3333333333333333,
+        "180": 0.3333333333333333,
+        "240": 0.16666666666666666
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_id": "E000001",
+      "reply_sender": "B",
+      "first_ref": "M000001",
+      "last_ref": "M000001",
+      "reply_ref": "M000002",
+      "first_time": "2030-01-01T09:00:00+08:00",
+      "last_time": "2030-01-01T09:00:00+08:00",
+      "reply_time": "2030-01-01T09:04:00+08:00",
+      "first_seconds": 240.0,
+      "last_seconds": 240.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000002",
+      "reply_sender": "A",
+      "first_ref": "M000002",
+      "last_ref": "M000002",
+      "reply_ref": "M000003",
+      "first_time": "2030-01-01T09:04:00+08:00",
+      "last_time": "2030-01-01T09:04:00+08:00",
+      "reply_time": "2030-01-01T09:05:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000003",
+      "reply_sender": "B",
+      "first_ref": "M000003",
+      "last_ref": "M000003",
+      "reply_ref": "M000004",
+      "first_time": "2030-01-01T09:05:00+08:00",
+      "last_time": "2030-01-01T09:05:00+08:00",
+      "reply_time": "2030-01-01T09:06:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000004",
+      "reply_sender": "A",
+      "first_ref": "M000004",
+      "last_ref": "M000005",
+      "reply_ref": "M000006",
+      "first_time": "2030-01-01T09:06:00+08:00",
+      "last_time": "2030-01-01T16:00:00+08:00",
+      "reply_time": "2030-01-01T16:20:00+08:00",
+      "first_seconds": 26040.0,
+      "last_seconds": 1200.0,
+      "waiting_messages": 2,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000005",
+      "reply_sender": "B",
+      "first_ref": "M000006",
+      "last_ref": "M000006",
+      "reply_ref": "M000007",
+      "first_time": "2030-01-01T16:20:00+08:00",
+      "last_time": "2030-01-01T16:20:00+08:00",
+      "reply_time": "2030-01-01T16:21:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000006",
+      "reply_sender": "A",
+      "first_ref": "M000007",
+      "last_ref": "M000007",
+      "reply_ref": "M000008",
+      "first_time": "2030-01-01T16:21:00+08:00",
+      "last_time": "2030-01-01T16:21:00+08:00",
+      "reply_time": "2030-01-02T09:00:00+08:00",
+      "first_seconds": 59940.0,
+      "last_seconds": 59940.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000007",
+      "reply_sender": "B",
+      "first_ref": "M000008",
+      "last_ref": "M000008",
+      "reply_ref": "M000009",
+      "first_time": "2030-01-02T09:00:00+08:00",
+      "last_time": "2030-01-02T09:00:00+08:00",
+      "reply_time": "2030-01-02T14:10:00+08:00",
+      "first_seconds": 18600.0,
+      "last_seconds": 18600.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000008",
+      "reply_sender": "A",
+      "first_ref": "M000009",
+      "last_ref": "M000009",
+      "reply_ref": "M000010",
+      "first_time": "2030-01-02T14:10:00+08:00",
+      "last_time": "2030-01-02T14:10:00+08:00",
+      "reply_time": "2030-01-02T14:12:00+08:00",
+      "first_seconds": 120.0,
+      "last_seconds": 120.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000009",
+      "reply_sender": "B",
+      "first_ref": "M000010",
+      "last_ref": "M000010",
+      "reply_ref": "M000011",
+      "first_time": "2030-01-02T14:12:00+08:00",
+      "last_time": "2030-01-02T14:12:00+08:00",
+      "reply_time": "2030-01-02T14:13:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000010",
+      "reply_sender": "A",
+      "first_ref": "M000011",
+      "last_ref": "M000011",
+      "reply_ref": "M000012",
+      "first_time": "2030-01-02T14:13:00+08:00",
+      "last_time": "2030-01-02T14:13:00+08:00",
+      "reply_time": "2030-01-02T22:30:00+08:00",
+      "first_seconds": 29820.0,
+      "last_seconds": 29820.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000011",
+      "reply_sender": "B",
+      "first_ref": "M000012",
+      "last_ref": "M000012",
+      "reply_ref": "M000013",
+      "first_time": "2030-01-02T22:30:00+08:00",
+      "last_time": "2030-01-02T22:30:00+08:00",
+      "reply_time": "2030-01-03T10:00:00+08:00",
+      "first_seconds": 41400.0,
+      "last_seconds": 41400.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000012",
+      "reply_sender": "A",
+      "first_ref": "M000013",
+      "last_ref": "M000013",
+      "reply_ref": "M000014",
+      "first_time": "2030-01-03T10:00:00+08:00",
+      "last_time": "2030-01-03T10:00:00+08:00",
+      "reply_time": "2030-01-03T10:02:00+08:00",
+      "first_seconds": 120.0,
+      "last_seconds": 120.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000013",
+      "reply_sender": "B",
+      "first_ref": "M000014",
+      "last_ref": "M000014",
+      "reply_ref": "M000015",
+      "first_time": "2030-01-03T10:02:00+08:00",
+      "last_time": "2030-01-03T10:02:00+08:00",
+      "reply_time": "2030-01-03T10:03:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000014",
+      "reply_sender": "A",
+      "first_ref": "M000015",
+      "last_ref": "M000015",
+      "reply_ref": "M000016",
+      "first_time": "2030-01-03T10:03:00+08:00",
+      "last_time": "2030-01-03T10:03:00+08:00",
+      "reply_time": "2030-01-04T08:00:00+08:00",
+      "first_seconds": 79020.0,
+      "last_seconds": 79020.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000015",
+      "reply_sender": "B",
+      "first_ref": "M000016",
+      "last_ref": "M000016",
+      "reply_ref": "M000017",
+      "first_time": "2030-01-04T08:00:00+08:00",
+      "last_time": "2030-01-04T08:00:00+08:00",
+      "reply_time": "2030-01-04T13:00:00+08:00",
+      "first_seconds": 18000.0,
+      "last_seconds": 18000.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000016",
+      "reply_sender": "A",
+      "first_ref": "M000017",
+      "last_ref": "M000017",
+      "reply_ref": "M000018",
+      "first_time": "2030-01-04T13:00:00+08:00",
+      "last_time": "2030-01-04T13:00:00+08:00",
+      "reply_time": "2030-01-04T13:10:00+08:00",
+      "first_seconds": 600.0,
+      "last_seconds": 600.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000017",
+      "reply_sender": "B",
+      "first_ref": "M000018",
+      "last_ref": "M000018",
+      "reply_ref": "M000019",
+      "first_time": "2030-01-04T13:10:00+08:00",
+      "last_time": "2030-01-04T13:10:00+08:00",
+      "reply_time": "2030-01-04T13:20:00+08:00",
+      "first_seconds": 600.0,
+      "last_seconds": 600.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000018",
+      "reply_sender": "A",
+      "first_ref": "M000019",
+      "last_ref": "M000019",
+      "reply_ref": "M000020",
+      "first_time": "2030-01-04T13:20:00+08:00",
+      "last_time": "2030-01-04T13:20:00+08:00",
+      "reply_time": "2030-01-04T13:22:00+08:00",
+      "first_seconds": 120.0,
+      "last_seconds": 120.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000019",
+      "reply_sender": "B",
+      "first_ref": "M000020",
+      "last_ref": "M000020",
+      "reply_ref": "M000021",
+      "first_time": "2030-01-04T13:22:00+08:00",
+      "last_time": "2030-01-04T13:22:00+08:00",
+      "reply_time": "2030-01-04T13:23:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000021",
+      "reply_sender": "B",
+      "first_ref": "M000022",
+      "last_ref": "M000022",
+      "reply_ref": "M000023",
+      "first_time": "2030-01-05T09:00:00+08:00",
+      "last_time": "2030-01-05T09:00:00+08:00",
+      "reply_time": "2030-01-05T09:03:00+08:00",
+      "first_seconds": 180.0,
+      "last_seconds": 180.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000022",
+      "reply_sender": "A",
+      "first_ref": "M000023",
+      "last_ref": "M000023",
+      "reply_ref": "M000024",
+      "first_time": "2030-01-05T09:03:00+08:00",
+      "last_time": "2030-01-05T09:03:00+08:00",
+      "reply_time": "2030-01-05T09:05:00+08:00",
+      "first_seconds": 120.0,
+      "last_seconds": 120.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000023",
+      "reply_sender": "B",
+      "first_ref": "M000024",
+      "last_ref": "M000025",
+      "reply_ref": "M000026",
+      "first_time": "2030-01-05T09:05:00+08:00",
+      "last_time": "2030-01-05T15:00:00+08:00",
+      "reply_time": "2030-01-05T15:12:00+08:00",
+      "first_seconds": 22020.0,
+      "last_seconds": 720.0,
+      "waiting_messages": 2,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000024",
+      "reply_sender": "A",
+      "first_ref": "M000026",
+      "last_ref": "M000026",
+      "reply_ref": "M000027",
+      "first_time": "2030-01-05T15:12:00+08:00",
+      "last_time": "2030-01-05T15:12:00+08:00",
+      "reply_time": "2030-01-05T15:13:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000025",
+      "reply_sender": "B",
+      "first_ref": "M000027",
+      "last_ref": "M000027",
+      "reply_ref": "M000028",
+      "first_time": "2030-01-05T15:13:00+08:00",
+      "last_time": "2030-01-05T15:13:00+08:00",
+      "reply_time": "2030-01-05T15:14:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000026",
+      "reply_sender": "A",
+      "first_ref": "M000028",
+      "last_ref": "M000028",
+      "reply_ref": "M000029",
+      "first_time": "2030-01-05T15:14:00+08:00",
+      "last_time": "2030-01-05T15:14:00+08:00",
+      "reply_time": "2030-01-06T10:00:00+08:00",
+      "first_seconds": 67560.0,
+      "last_seconds": 67560.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000027",
+      "reply_sender": "B",
+      "first_ref": "M000029",
+      "last_ref": "M000029",
+      "reply_ref": "M000030",
+      "first_time": "2030-01-06T10:00:00+08:00",
+      "last_time": "2030-01-06T10:00:00+08:00",
+      "reply_time": "2030-01-06T14:00:00+08:00",
+      "first_seconds": 14400.0,
+      "last_seconds": 14400.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000028",
+      "reply_sender": "A",
+      "first_ref": "M000030",
+      "last_ref": "M000030",
+      "reply_ref": "M000031",
+      "first_time": "2030-01-06T14:00:00+08:00",
+      "last_time": "2030-01-06T14:00:00+08:00",
+      "reply_time": "2030-01-06T14:01:00+08:00",
+      "first_seconds": 60.0,
+      "last_seconds": 60.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000029",
+      "reply_sender": "B",
+      "first_ref": "M000031",
+      "last_ref": "M000031",
+      "reply_ref": "M000032",
+      "first_time": "2030-01-06T14:01:00+08:00",
+      "last_time": "2030-01-06T14:01:00+08:00",
+      "reply_time": "2030-01-07T09:00:00+08:00",
+      "first_seconds": 68340.0,
+      "last_seconds": 68340.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000030",
+      "reply_sender": "A",
+      "first_ref": "M000032",
+      "last_ref": "M000032",
+      "reply_ref": "M000033",
+      "first_time": "2030-01-07T09:00:00+08:00",
+      "last_time": "2030-01-07T09:00:00+08:00",
+      "reply_time": "2030-01-07T13:00:01+08:00",
+      "first_seconds": 14401.0,
+      "last_seconds": 14401.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000031",
+      "reply_sender": "B",
+      "first_ref": "M000033",
+      "last_ref": "M000033",
+      "reply_ref": "M000034",
+      "first_time": "2030-01-07T13:00:01+08:00",
+      "last_time": "2030-01-07T13:00:01+08:00",
+      "reply_time": "2030-01-07T13:01:00+08:00",
+      "first_seconds": 59.0,
+      "last_seconds": 59.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    }
+  ],
+  "candidates": [
+    {
+      "event_id": "E000004",
+      "reply_sender": "A",
+      "first_ref": "M000004",
+      "last_ref": "M000005",
+      "reply_ref": "M000006",
+      "first_time": "2030-01-01T09:06:00+08:00",
+      "last_time": "2030-01-01T16:00:00+08:00",
+      "reply_time": "2030-01-01T16:20:00+08:00",
+      "first_seconds": 26040.0,
+      "last_seconds": 1200.0,
+      "waiting_messages": 2,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000006",
+      "reply_sender": "A",
+      "first_ref": "M000007",
+      "last_ref": "M000007",
+      "reply_ref": "M000008",
+      "first_time": "2030-01-01T16:21:00+08:00",
+      "last_time": "2030-01-01T16:21:00+08:00",
+      "reply_time": "2030-01-02T09:00:00+08:00",
+      "first_seconds": 59940.0,
+      "last_seconds": 59940.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000007",
+      "reply_sender": "B",
+      "first_ref": "M000008",
+      "last_ref": "M000008",
+      "reply_ref": "M000009",
+      "first_time": "2030-01-02T09:00:00+08:00",
+      "last_time": "2030-01-02T09:00:00+08:00",
+      "reply_time": "2030-01-02T14:10:00+08:00",
+      "first_seconds": 18600.0,
+      "last_seconds": 18600.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000010",
+      "reply_sender": "A",
+      "first_ref": "M000011",
+      "last_ref": "M000011",
+      "reply_ref": "M000012",
+      "first_time": "2030-01-02T14:13:00+08:00",
+      "last_time": "2030-01-02T14:13:00+08:00",
+      "reply_time": "2030-01-02T22:30:00+08:00",
+      "first_seconds": 29820.0,
+      "last_seconds": 29820.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000011",
+      "reply_sender": "B",
+      "first_ref": "M000012",
+      "last_ref": "M000012",
+      "reply_ref": "M000013",
+      "first_time": "2030-01-02T22:30:00+08:00",
+      "last_time": "2030-01-02T22:30:00+08:00",
+      "reply_time": "2030-01-03T10:00:00+08:00",
+      "first_seconds": 41400.0,
+      "last_seconds": 41400.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000014",
+      "reply_sender": "A",
+      "first_ref": "M000015",
+      "last_ref": "M000015",
+      "reply_ref": "M000016",
+      "first_time": "2030-01-03T10:03:00+08:00",
+      "last_time": "2030-01-03T10:03:00+08:00",
+      "reply_time": "2030-01-04T08:00:00+08:00",
+      "first_seconds": 79020.0,
+      "last_seconds": 79020.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000015",
+      "reply_sender": "B",
+      "first_ref": "M000016",
+      "last_ref": "M000016",
+      "reply_ref": "M000017",
+      "first_time": "2030-01-04T08:00:00+08:00",
+      "last_time": "2030-01-04T08:00:00+08:00",
+      "reply_time": "2030-01-04T13:00:00+08:00",
+      "first_seconds": 18000.0,
+      "last_seconds": 18000.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段一"
+    },
+    {
+      "event_id": "E000023",
+      "reply_sender": "B",
+      "first_ref": "M000024",
+      "last_ref": "M000025",
+      "reply_ref": "M000026",
+      "first_time": "2030-01-05T09:05:00+08:00",
+      "last_time": "2030-01-05T15:00:00+08:00",
+      "reply_time": "2030-01-05T15:12:00+08:00",
+      "first_seconds": 22020.0,
+      "last_seconds": 720.0,
+      "waiting_messages": 2,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000026",
+      "reply_sender": "A",
+      "first_ref": "M000028",
+      "last_ref": "M000028",
+      "reply_ref": "M000029",
+      "first_time": "2030-01-05T15:14:00+08:00",
+      "last_time": "2030-01-05T15:14:00+08:00",
+      "reply_time": "2030-01-06T10:00:00+08:00",
+      "first_seconds": 67560.0,
+      "last_seconds": 67560.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000029",
+      "reply_sender": "B",
+      "first_ref": "M000031",
+      "last_ref": "M000031",
+      "reply_ref": "M000032",
+      "first_time": "2030-01-06T14:01:00+08:00",
+      "last_time": "2030-01-06T14:01:00+08:00",
+      "reply_time": "2030-01-07T09:00:00+08:00",
+      "first_seconds": 68340.0,
+      "last_seconds": 68340.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    },
+    {
+      "event_id": "E000030",
+      "reply_sender": "A",
+      "first_ref": "M000032",
+      "last_ref": "M000032",
+      "reply_ref": "M000033",
+      "first_time": "2030-01-07T09:00:00+08:00",
+      "last_time": "2030-01-07T09:00:00+08:00",
+      "reply_time": "2030-01-07T13:00:01+08:00",
+      "first_seconds": 14401.0,
+      "last_seconds": 14401.0,
+      "waiting_messages": 1,
+      "phase": "虚构阶段二"
+    }
+  ],
+  "boundary_events": [
+    {
+      "event_id": "E000020",
+      "reply_sender": "A",
+      "first_ref": "M000021",
+      "last_ref": "M000021",
+      "reply_ref": "M000022",
+      "first_time": "2030-01-04T13:23:00+08:00",
+      "last_time": "2030-01-04T13:23:00+08:00",
+      "reply_time": "2030-01-05T09:00:00+08:00",
+      "first_seconds": 70620.0,
+      "last_seconds": 70620.0,
+      "waiting_messages": 1,
+      "phase": null,
+      "touching_phases": [
+        "虚构阶段一",
+        "虚构阶段二"
+      ]
+    }
+  ],
+  "pending": {
+    "awaiting_sender": "A",
+    "first_time": "2030-01-07T13:01:00+08:00",
+    "last_time": "2030-01-07T13:01:00+08:00",
+    "as_of": "2030-01-07T18:00:00+08:00",
+    "observed_first_seconds": 17940.0,
+    "complete": false
+  }
+}

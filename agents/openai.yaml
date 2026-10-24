@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chat Reply Audit"
+  short_description: "Screen chat reply gaps, then audit context with evidence."
+  default_prompt: "Use $chat-reply-audit to analyze my authorized two-person chat export and review long-gap candidates with cited evidence."

@@ -1,0 +1,32 @@
+# Private inputs and every runtime artifact
+/private-input/
+/private-output/
+/reports/
+/exports/
+/backup/
+/decrypted/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*keys*.json
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.local.json
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Reproducible examples are the only intended public report artifacts.

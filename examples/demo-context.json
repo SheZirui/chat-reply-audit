@@ -1,0 +1,1737 @@
+{
+  "schema_version": "1.0.0",
+  "analysis_id": "ae3461a81dd7c494d9104556182c5ead1218ddb426ca57178a977a8112efc05b",
+  "candidate_minutes": 240,
+  "contains_private_content": true,
+  "scope": "Only the timestamp-screened candidates; no inference of read status or intent.",
+  "cases": [
+    {
+      "event": {
+        "event_id": "E000004",
+        "reply_sender": "A",
+        "first_ref": "M000004",
+        "last_ref": "M000005",
+        "reply_ref": "M000006",
+        "first_time": "2030-01-01T09:06:00+08:00",
+        "last_time": "2030-01-01T16:00:00+08:00",
+        "reply_time": "2030-01-01T16:20:00+08:00",
+        "first_seconds": 26040.0,
+        "last_seconds": 1200.0,
+        "waiting_messages": 2,
+        "phase": "虚构阶段一"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000001",
+            "time": "2030-01-01T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示用投影接好了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000002",
+            "time": "2030-01-01T09:04:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "接好了，测试画面也正常。",
+            "truncated": false
+          },
+          {
+            "ref": "M000003",
+            "time": "2030-01-01T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，准备开始。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000004",
+            "time": "2030-01-01T09:06:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，现场见。",
+            "truncated": false
+          },
+          {
+            "ref": "M000005",
+            "time": "2030-01-01T16:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下周的演示封面选蓝色还是橙色？",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000006",
+            "time": "2030-01-01T16:20:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "选蓝色吧。",
+            "truncated": false
+          },
+          {
+            "ref": "M000007",
+            "time": "2030-01-01T16:21:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000008",
+            "time": "2030-01-02T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "今天的会场预约成功了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000009",
+            "time": "2030-01-02T14:10:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "预约好了，刚才一直在培训，课间才看到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000010",
+            "time": "2030-01-02T14:12:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "了解，我下午再准备材料。",
+            "truncated": false
+          },
+          {
+            "ref": "M000011",
+            "time": "2030-01-02T14:13:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好的。",
+            "truncated": false
+          },
+          {
+            "ref": "M000012",
+            "time": "2030-01-02T22:30:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "我把明天演示稿发好了，你有空再看，今晚不用回。",
+            "truncated": false
+          },
+          {
+            "ref": "M000013",
+            "time": "2030-01-03T10:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "看过了，第二页可以再精简些。",
+            "truncated": false
+          },
+          {
+            "ref": "M000014",
+            "time": "2030-01-03T10:02:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，我改一下。",
+            "truncated": false
+          },
+          {
+            "ref": "M000015",
+            "time": "2030-01-03T10:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "谢谢。",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000006",
+        "reply_sender": "A",
+        "first_ref": "M000007",
+        "last_ref": "M000007",
+        "reply_ref": "M000008",
+        "first_time": "2030-01-01T16:21:00+08:00",
+        "last_time": "2030-01-01T16:21:00+08:00",
+        "reply_time": "2030-01-02T09:00:00+08:00",
+        "first_seconds": 59940.0,
+        "last_seconds": 59940.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段一"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000001",
+            "time": "2030-01-01T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示用投影接好了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000002",
+            "time": "2030-01-01T09:04:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "接好了，测试画面也正常。",
+            "truncated": false
+          },
+          {
+            "ref": "M000003",
+            "time": "2030-01-01T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，准备开始。",
+            "truncated": false
+          },
+          {
+            "ref": "M000004",
+            "time": "2030-01-01T09:06:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，现场见。",
+            "truncated": false
+          },
+          {
+            "ref": "M000005",
+            "time": "2030-01-01T16:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下周的演示封面选蓝色还是橙色？",
+            "truncated": false
+          },
+          {
+            "ref": "M000006",
+            "time": "2030-01-01T16:20:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "选蓝色吧。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000007",
+            "time": "2030-01-01T16:21:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000008",
+            "time": "2030-01-02T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "今天的会场预约成功了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000009",
+            "time": "2030-01-02T14:10:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "预约好了，刚才一直在培训，课间才看到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000010",
+            "time": "2030-01-02T14:12:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "了解，我下午再准备材料。",
+            "truncated": false
+          },
+          {
+            "ref": "M000011",
+            "time": "2030-01-02T14:13:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好的。",
+            "truncated": false
+          },
+          {
+            "ref": "M000012",
+            "time": "2030-01-02T22:30:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "我把明天演示稿发好了，你有空再看，今晚不用回。",
+            "truncated": false
+          },
+          {
+            "ref": "M000013",
+            "time": "2030-01-03T10:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "看过了，第二页可以再精简些。",
+            "truncated": false
+          },
+          {
+            "ref": "M000014",
+            "time": "2030-01-03T10:02:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，我改一下。",
+            "truncated": false
+          },
+          {
+            "ref": "M000015",
+            "time": "2030-01-03T10:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "谢谢。",
+            "truncated": false
+          },
+          {
+            "ref": "M000016",
+            "time": "2030-01-04T08:00:00+08:00",
+            "sender": "A",
+            "kind": "voice",
+            "text": "[虚构语音占位，未转写]",
+            "truncated": false
+          },
+          {
+            "ref": "M000017",
+            "time": "2030-01-04T13:00:00+08:00",
+            "sender": "B",
+            "kind": "image",
+            "text": "[虚构图片占位，未识别]",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000007",
+        "reply_sender": "B",
+        "first_ref": "M000008",
+        "last_ref": "M000008",
+        "reply_ref": "M000009",
+        "first_time": "2030-01-02T09:00:00+08:00",
+        "last_time": "2030-01-02T09:00:00+08:00",
+        "reply_time": "2030-01-02T14:10:00+08:00",
+        "first_seconds": 18600.0,
+        "last_seconds": 18600.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段一"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000001",
+            "time": "2030-01-01T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示用投影接好了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000002",
+            "time": "2030-01-01T09:04:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "接好了，测试画面也正常。",
+            "truncated": false
+          },
+          {
+            "ref": "M000003",
+            "time": "2030-01-01T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，准备开始。",
+            "truncated": false
+          },
+          {
+            "ref": "M000004",
+            "time": "2030-01-01T09:06:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，现场见。",
+            "truncated": false
+          },
+          {
+            "ref": "M000005",
+            "time": "2030-01-01T16:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下周的演示封面选蓝色还是橙色？",
+            "truncated": false
+          },
+          {
+            "ref": "M000006",
+            "time": "2030-01-01T16:20:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "选蓝色吧。",
+            "truncated": false
+          },
+          {
+            "ref": "M000007",
+            "time": "2030-01-01T16:21:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000008",
+            "time": "2030-01-02T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "今天的会场预约成功了吗？",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000009",
+            "time": "2030-01-02T14:10:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "预约好了，刚才一直在培训，课间才看到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000010",
+            "time": "2030-01-02T14:12:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "了解，我下午再准备材料。",
+            "truncated": false
+          },
+          {
+            "ref": "M000011",
+            "time": "2030-01-02T14:13:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好的。",
+            "truncated": false
+          },
+          {
+            "ref": "M000012",
+            "time": "2030-01-02T22:30:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "我把明天演示稿发好了，你有空再看，今晚不用回。",
+            "truncated": false
+          },
+          {
+            "ref": "M000013",
+            "time": "2030-01-03T10:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "看过了，第二页可以再精简些。",
+            "truncated": false
+          },
+          {
+            "ref": "M000014",
+            "time": "2030-01-03T10:02:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，我改一下。",
+            "truncated": false
+          },
+          {
+            "ref": "M000015",
+            "time": "2030-01-03T10:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "谢谢。",
+            "truncated": false
+          },
+          {
+            "ref": "M000016",
+            "time": "2030-01-04T08:00:00+08:00",
+            "sender": "A",
+            "kind": "voice",
+            "text": "[虚构语音占位，未转写]",
+            "truncated": false
+          },
+          {
+            "ref": "M000017",
+            "time": "2030-01-04T13:00:00+08:00",
+            "sender": "B",
+            "kind": "image",
+            "text": "[虚构图片占位，未识别]",
+            "truncated": false
+          },
+          {
+            "ref": "M000018",
+            "time": "2030-01-04T13:10:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这张演示海报的标题再大一点？",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000010",
+        "reply_sender": "A",
+        "first_ref": "M000011",
+        "last_ref": "M000011",
+        "reply_ref": "M000012",
+        "first_time": "2030-01-02T14:13:00+08:00",
+        "last_time": "2030-01-02T14:13:00+08:00",
+        "reply_time": "2030-01-02T22:30:00+08:00",
+        "first_seconds": 29820.0,
+        "last_seconds": 29820.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段一"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000003",
+            "time": "2030-01-01T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，准备开始。",
+            "truncated": false
+          },
+          {
+            "ref": "M000004",
+            "time": "2030-01-01T09:06:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，现场见。",
+            "truncated": false
+          },
+          {
+            "ref": "M000005",
+            "time": "2030-01-01T16:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下周的演示封面选蓝色还是橙色？",
+            "truncated": false
+          },
+          {
+            "ref": "M000006",
+            "time": "2030-01-01T16:20:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "选蓝色吧。",
+            "truncated": false
+          },
+          {
+            "ref": "M000007",
+            "time": "2030-01-01T16:21:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000008",
+            "time": "2030-01-02T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "今天的会场预约成功了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000009",
+            "time": "2030-01-02T14:10:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "预约好了，刚才一直在培训，课间才看到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000010",
+            "time": "2030-01-02T14:12:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "了解，我下午再准备材料。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000011",
+            "time": "2030-01-02T14:13:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好的。",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000012",
+            "time": "2030-01-02T22:30:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "我把明天演示稿发好了，你有空再看，今晚不用回。",
+            "truncated": false
+          },
+          {
+            "ref": "M000013",
+            "time": "2030-01-03T10:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "看过了，第二页可以再精简些。",
+            "truncated": false
+          },
+          {
+            "ref": "M000014",
+            "time": "2030-01-03T10:02:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，我改一下。",
+            "truncated": false
+          },
+          {
+            "ref": "M000015",
+            "time": "2030-01-03T10:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "谢谢。",
+            "truncated": false
+          },
+          {
+            "ref": "M000016",
+            "time": "2030-01-04T08:00:00+08:00",
+            "sender": "A",
+            "kind": "voice",
+            "text": "[虚构语音占位，未转写]",
+            "truncated": false
+          },
+          {
+            "ref": "M000017",
+            "time": "2030-01-04T13:00:00+08:00",
+            "sender": "B",
+            "kind": "image",
+            "text": "[虚构图片占位，未识别]",
+            "truncated": false
+          },
+          {
+            "ref": "M000018",
+            "time": "2030-01-04T13:10:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这张演示海报的标题再大一点？",
+            "truncated": false
+          },
+          {
+            "ref": "M000019",
+            "time": "2030-01-04T13:20:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，我调整。",
+            "truncated": false
+          },
+          {
+            "ref": "M000020",
+            "time": "2030-01-04T13:22:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000021",
+            "time": "2030-01-04T13:23:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下午各自准备，晚些再沟通。",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000011",
+        "reply_sender": "B",
+        "first_ref": "M000012",
+        "last_ref": "M000012",
+        "reply_ref": "M000013",
+        "first_time": "2030-01-02T22:30:00+08:00",
+        "last_time": "2030-01-02T22:30:00+08:00",
+        "reply_time": "2030-01-03T10:00:00+08:00",
+        "first_seconds": 41400.0,
+        "last_seconds": 41400.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段一"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000004",
+            "time": "2030-01-01T09:06:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，现场见。",
+            "truncated": false
+          },
+          {
+            "ref": "M000005",
+            "time": "2030-01-01T16:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下周的演示封面选蓝色还是橙色？",
+            "truncated": false
+          },
+          {
+            "ref": "M000006",
+            "time": "2030-01-01T16:20:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "选蓝色吧。",
+            "truncated": false
+          },
+          {
+            "ref": "M000007",
+            "time": "2030-01-01T16:21:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000008",
+            "time": "2030-01-02T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "今天的会场预约成功了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000009",
+            "time": "2030-01-02T14:10:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "预约好了，刚才一直在培训，课间才看到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000010",
+            "time": "2030-01-02T14:12:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "了解，我下午再准备材料。",
+            "truncated": false
+          },
+          {
+            "ref": "M000011",
+            "time": "2030-01-02T14:13:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好的。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000012",
+            "time": "2030-01-02T22:30:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "我把明天演示稿发好了，你有空再看，今晚不用回。",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000013",
+            "time": "2030-01-03T10:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "看过了，第二页可以再精简些。",
+            "truncated": false
+          },
+          {
+            "ref": "M000014",
+            "time": "2030-01-03T10:02:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，我改一下。",
+            "truncated": false
+          },
+          {
+            "ref": "M000015",
+            "time": "2030-01-03T10:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "谢谢。",
+            "truncated": false
+          },
+          {
+            "ref": "M000016",
+            "time": "2030-01-04T08:00:00+08:00",
+            "sender": "A",
+            "kind": "voice",
+            "text": "[虚构语音占位，未转写]",
+            "truncated": false
+          },
+          {
+            "ref": "M000017",
+            "time": "2030-01-04T13:00:00+08:00",
+            "sender": "B",
+            "kind": "image",
+            "text": "[虚构图片占位，未识别]",
+            "truncated": false
+          },
+          {
+            "ref": "M000018",
+            "time": "2030-01-04T13:10:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这张演示海报的标题再大一点？",
+            "truncated": false
+          },
+          {
+            "ref": "M000019",
+            "time": "2030-01-04T13:20:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，我调整。",
+            "truncated": false
+          },
+          {
+            "ref": "M000020",
+            "time": "2030-01-04T13:22:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000021",
+            "time": "2030-01-04T13:23:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下午各自准备，晚些再沟通。",
+            "truncated": false
+          },
+          {
+            "ref": "M000022",
+            "time": "2030-01-05T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "展示时先播放音频还是先讲解？",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000014",
+        "reply_sender": "A",
+        "first_ref": "M000015",
+        "last_ref": "M000015",
+        "reply_ref": "M000016",
+        "first_time": "2030-01-03T10:03:00+08:00",
+        "last_time": "2030-01-03T10:03:00+08:00",
+        "reply_time": "2030-01-04T08:00:00+08:00",
+        "first_seconds": 79020.0,
+        "last_seconds": 79020.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段一"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000007",
+            "time": "2030-01-01T16:21:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000008",
+            "time": "2030-01-02T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "今天的会场预约成功了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000009",
+            "time": "2030-01-02T14:10:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "预约好了，刚才一直在培训，课间才看到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000010",
+            "time": "2030-01-02T14:12:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "了解，我下午再准备材料。",
+            "truncated": false
+          },
+          {
+            "ref": "M000011",
+            "time": "2030-01-02T14:13:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好的。",
+            "truncated": false
+          },
+          {
+            "ref": "M000012",
+            "time": "2030-01-02T22:30:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "我把明天演示稿发好了，你有空再看，今晚不用回。",
+            "truncated": false
+          },
+          {
+            "ref": "M000013",
+            "time": "2030-01-03T10:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "看过了，第二页可以再精简些。",
+            "truncated": false
+          },
+          {
+            "ref": "M000014",
+            "time": "2030-01-03T10:02:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，我改一下。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000015",
+            "time": "2030-01-03T10:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "谢谢。",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000016",
+            "time": "2030-01-04T08:00:00+08:00",
+            "sender": "A",
+            "kind": "voice",
+            "text": "[虚构语音占位，未转写]",
+            "truncated": false
+          },
+          {
+            "ref": "M000017",
+            "time": "2030-01-04T13:00:00+08:00",
+            "sender": "B",
+            "kind": "image",
+            "text": "[虚构图片占位，未识别]",
+            "truncated": false
+          },
+          {
+            "ref": "M000018",
+            "time": "2030-01-04T13:10:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这张演示海报的标题再大一点？",
+            "truncated": false
+          },
+          {
+            "ref": "M000019",
+            "time": "2030-01-04T13:20:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，我调整。",
+            "truncated": false
+          },
+          {
+            "ref": "M000020",
+            "time": "2030-01-04T13:22:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000021",
+            "time": "2030-01-04T13:23:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下午各自准备，晚些再沟通。",
+            "truncated": false
+          },
+          {
+            "ref": "M000022",
+            "time": "2030-01-05T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "展示时先播放音频还是先讲解？",
+            "truncated": false
+          },
+          {
+            "ref": "M000023",
+            "time": "2030-01-05T09:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "先播放音频。",
+            "truncated": false
+          },
+          {
+            "ref": "M000024",
+            "time": "2030-01-05T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好。",
+            "truncated": false
+          },
+          {
+            "ref": "M000025",
+            "time": "2030-01-05T15:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示摘要控制在一页够吗？",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000015",
+        "reply_sender": "B",
+        "first_ref": "M000016",
+        "last_ref": "M000016",
+        "reply_ref": "M000017",
+        "first_time": "2030-01-04T08:00:00+08:00",
+        "last_time": "2030-01-04T08:00:00+08:00",
+        "reply_time": "2030-01-04T13:00:00+08:00",
+        "first_seconds": 18000.0,
+        "last_seconds": 18000.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段一"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000008",
+            "time": "2030-01-02T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "今天的会场预约成功了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000009",
+            "time": "2030-01-02T14:10:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "预约好了，刚才一直在培训，课间才看到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000010",
+            "time": "2030-01-02T14:12:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "了解，我下午再准备材料。",
+            "truncated": false
+          },
+          {
+            "ref": "M000011",
+            "time": "2030-01-02T14:13:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好的。",
+            "truncated": false
+          },
+          {
+            "ref": "M000012",
+            "time": "2030-01-02T22:30:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "我把明天演示稿发好了，你有空再看，今晚不用回。",
+            "truncated": false
+          },
+          {
+            "ref": "M000013",
+            "time": "2030-01-03T10:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "看过了，第二页可以再精简些。",
+            "truncated": false
+          },
+          {
+            "ref": "M000014",
+            "time": "2030-01-03T10:02:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，我改一下。",
+            "truncated": false
+          },
+          {
+            "ref": "M000015",
+            "time": "2030-01-03T10:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "谢谢。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000016",
+            "time": "2030-01-04T08:00:00+08:00",
+            "sender": "A",
+            "kind": "voice",
+            "text": "[虚构语音占位，未转写]",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000017",
+            "time": "2030-01-04T13:00:00+08:00",
+            "sender": "B",
+            "kind": "image",
+            "text": "[虚构图片占位，未识别]",
+            "truncated": false
+          },
+          {
+            "ref": "M000018",
+            "time": "2030-01-04T13:10:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这张演示海报的标题再大一点？",
+            "truncated": false
+          },
+          {
+            "ref": "M000019",
+            "time": "2030-01-04T13:20:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，我调整。",
+            "truncated": false
+          },
+          {
+            "ref": "M000020",
+            "time": "2030-01-04T13:22:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000021",
+            "time": "2030-01-04T13:23:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下午各自准备，晚些再沟通。",
+            "truncated": false
+          },
+          {
+            "ref": "M000022",
+            "time": "2030-01-05T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "展示时先播放音频还是先讲解？",
+            "truncated": false
+          },
+          {
+            "ref": "M000023",
+            "time": "2030-01-05T09:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "先播放音频。",
+            "truncated": false
+          },
+          {
+            "ref": "M000024",
+            "time": "2030-01-05T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好。",
+            "truncated": false
+          },
+          {
+            "ref": "M000025",
+            "time": "2030-01-05T15:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示摘要控制在一页够吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000026",
+            "time": "2030-01-05T15:12:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "够，一页即可。",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000023",
+        "reply_sender": "B",
+        "first_ref": "M000024",
+        "last_ref": "M000025",
+        "reply_ref": "M000026",
+        "first_time": "2030-01-05T09:05:00+08:00",
+        "last_time": "2030-01-05T15:00:00+08:00",
+        "reply_time": "2030-01-05T15:12:00+08:00",
+        "first_seconds": 22020.0,
+        "last_seconds": 720.0,
+        "waiting_messages": 2,
+        "phase": "虚构阶段二"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000016",
+            "time": "2030-01-04T08:00:00+08:00",
+            "sender": "A",
+            "kind": "voice",
+            "text": "[虚构语音占位，未转写]",
+            "truncated": false
+          },
+          {
+            "ref": "M000017",
+            "time": "2030-01-04T13:00:00+08:00",
+            "sender": "B",
+            "kind": "image",
+            "text": "[虚构图片占位，未识别]",
+            "truncated": false
+          },
+          {
+            "ref": "M000018",
+            "time": "2030-01-04T13:10:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这张演示海报的标题再大一点？",
+            "truncated": false
+          },
+          {
+            "ref": "M000019",
+            "time": "2030-01-04T13:20:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "好，我调整。",
+            "truncated": false
+          },
+          {
+            "ref": "M000020",
+            "time": "2030-01-04T13:22:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000021",
+            "time": "2030-01-04T13:23:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下午各自准备，晚些再沟通。",
+            "truncated": false
+          },
+          {
+            "ref": "M000022",
+            "time": "2030-01-05T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "展示时先播放音频还是先讲解？",
+            "truncated": false
+          },
+          {
+            "ref": "M000023",
+            "time": "2030-01-05T09:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "先播放音频。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000024",
+            "time": "2030-01-05T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好。",
+            "truncated": false
+          },
+          {
+            "ref": "M000025",
+            "time": "2030-01-05T15:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示摘要控制在一页够吗？",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000026",
+            "time": "2030-01-05T15:12:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "够，一页即可。",
+            "truncated": false
+          },
+          {
+            "ref": "M000027",
+            "time": "2030-01-05T15:13:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，安排好了。",
+            "truncated": false
+          },
+          {
+            "ref": "M000028",
+            "time": "2030-01-05T15:14:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "那先各忙。",
+            "truncated": false
+          },
+          {
+            "ref": "M000029",
+            "time": "2030-01-06T10:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这份演示代码你看懂了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000030",
+            "time": "2030-01-06T14:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "基本看懂了。",
+            "truncated": false
+          },
+          {
+            "ref": "M000031",
+            "time": "2030-01-06T14:01:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，后面有问题再说。",
+            "truncated": false
+          },
+          {
+            "ref": "M000032",
+            "time": "2030-01-07T09:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "演示现场需要提前十分钟到吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000033",
+            "time": "2030-01-07T13:00:01+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "需要，提前到。刚结束排练。",
+            "truncated": false
+          },
+          {
+            "ref": "M000034",
+            "time": "2030-01-07T13:01:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "知道了。",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000026",
+        "reply_sender": "A",
+        "first_ref": "M000028",
+        "last_ref": "M000028",
+        "reply_ref": "M000029",
+        "first_time": "2030-01-05T15:14:00+08:00",
+        "last_time": "2030-01-05T15:14:00+08:00",
+        "reply_time": "2030-01-06T10:00:00+08:00",
+        "first_seconds": 67560.0,
+        "last_seconds": 67560.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段二"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000020",
+            "time": "2030-01-04T13:22:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到。",
+            "truncated": false
+          },
+          {
+            "ref": "M000021",
+            "time": "2030-01-04T13:23:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "下午各自准备，晚些再沟通。",
+            "truncated": false
+          },
+          {
+            "ref": "M000022",
+            "time": "2030-01-05T09:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "展示时先播放音频还是先讲解？",
+            "truncated": false
+          },
+          {
+            "ref": "M000023",
+            "time": "2030-01-05T09:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "先播放音频。",
+            "truncated": false
+          },
+          {
+            "ref": "M000024",
+            "time": "2030-01-05T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好。",
+            "truncated": false
+          },
+          {
+            "ref": "M000025",
+            "time": "2030-01-05T15:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示摘要控制在一页够吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000026",
+            "time": "2030-01-05T15:12:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "够，一页即可。",
+            "truncated": false
+          },
+          {
+            "ref": "M000027",
+            "time": "2030-01-05T15:13:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，安排好了。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000028",
+            "time": "2030-01-05T15:14:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "那先各忙。",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000029",
+            "time": "2030-01-06T10:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这份演示代码你看懂了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000030",
+            "time": "2030-01-06T14:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "基本看懂了。",
+            "truncated": false
+          },
+          {
+            "ref": "M000031",
+            "time": "2030-01-06T14:01:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，后面有问题再说。",
+            "truncated": false
+          },
+          {
+            "ref": "M000032",
+            "time": "2030-01-07T09:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "演示现场需要提前十分钟到吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000033",
+            "time": "2030-01-07T13:00:01+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "需要，提前到。刚结束排练。",
+            "truncated": false
+          },
+          {
+            "ref": "M000034",
+            "time": "2030-01-07T13:01:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "知道了。",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000029",
+        "reply_sender": "B",
+        "first_ref": "M000031",
+        "last_ref": "M000031",
+        "reply_ref": "M000032",
+        "first_time": "2030-01-06T14:01:00+08:00",
+        "last_time": "2030-01-06T14:01:00+08:00",
+        "reply_time": "2030-01-07T09:00:00+08:00",
+        "first_seconds": 68340.0,
+        "last_seconds": 68340.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段二"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000023",
+            "time": "2030-01-05T09:03:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "先播放音频。",
+            "truncated": false
+          },
+          {
+            "ref": "M000024",
+            "time": "2030-01-05T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好。",
+            "truncated": false
+          },
+          {
+            "ref": "M000025",
+            "time": "2030-01-05T15:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示摘要控制在一页够吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000026",
+            "time": "2030-01-05T15:12:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "够，一页即可。",
+            "truncated": false
+          },
+          {
+            "ref": "M000027",
+            "time": "2030-01-05T15:13:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，安排好了。",
+            "truncated": false
+          },
+          {
+            "ref": "M000028",
+            "time": "2030-01-05T15:14:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "那先各忙。",
+            "truncated": false
+          },
+          {
+            "ref": "M000029",
+            "time": "2030-01-06T10:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这份演示代码你看懂了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000030",
+            "time": "2030-01-06T14:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "基本看懂了。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000031",
+            "time": "2030-01-06T14:01:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，后面有问题再说。",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000032",
+            "time": "2030-01-07T09:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "演示现场需要提前十分钟到吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000033",
+            "time": "2030-01-07T13:00:01+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "需要，提前到。刚结束排练。",
+            "truncated": false
+          },
+          {
+            "ref": "M000034",
+            "time": "2030-01-07T13:01:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "知道了。",
+            "truncated": false
+          }
+        ]
+      }
+    },
+    {
+      "event": {
+        "event_id": "E000030",
+        "reply_sender": "A",
+        "first_ref": "M000032",
+        "last_ref": "M000032",
+        "reply_ref": "M000033",
+        "first_time": "2030-01-07T09:00:00+08:00",
+        "last_time": "2030-01-07T09:00:00+08:00",
+        "reply_time": "2030-01-07T13:00:01+08:00",
+        "first_seconds": 14401.0,
+        "last_seconds": 14401.0,
+        "waiting_messages": 1,
+        "phase": "虚构阶段二"
+      },
+      "context": {
+        "before": [
+          {
+            "ref": "M000024",
+            "time": "2030-01-05T09:05:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好。",
+            "truncated": false
+          },
+          {
+            "ref": "M000025",
+            "time": "2030-01-05T15:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "演示摘要控制在一页够吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000026",
+            "time": "2030-01-05T15:12:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "够，一页即可。",
+            "truncated": false
+          },
+          {
+            "ref": "M000027",
+            "time": "2030-01-05T15:13:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "收到，安排好了。",
+            "truncated": false
+          },
+          {
+            "ref": "M000028",
+            "time": "2030-01-05T15:14:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "那先各忙。",
+            "truncated": false
+          },
+          {
+            "ref": "M000029",
+            "time": "2030-01-06T10:00:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "这份演示代码你看懂了吗？",
+            "truncated": false
+          },
+          {
+            "ref": "M000030",
+            "time": "2030-01-06T14:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "基本看懂了。",
+            "truncated": false
+          },
+          {
+            "ref": "M000031",
+            "time": "2030-01-06T14:01:00+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "好，后面有问题再说。",
+            "truncated": false
+          }
+        ],
+        "waiting": [
+          {
+            "ref": "M000032",
+            "time": "2030-01-07T09:00:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "演示现场需要提前十分钟到吗？",
+            "truncated": false
+          }
+        ],
+        "after": [
+          {
+            "ref": "M000033",
+            "time": "2030-01-07T13:00:01+08:00",
+            "sender": "A",
+            "kind": "text",
+            "text": "需要，提前到。刚结束排练。",
+            "truncated": false
+          },
+          {
+            "ref": "M000034",
+            "time": "2030-01-07T13:01:00+08:00",
+            "sender": "B",
+            "kind": "text",
+            "text": "知道了。",
+            "truncated": false
+          }
+        ]
+      }
+    }
+  ]
+}
